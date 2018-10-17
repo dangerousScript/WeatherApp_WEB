@@ -21,7 +21,7 @@ function getWeather() {
             }
         });
     } else {
-        $('#error').html("<div>City field cannot be empty</div>");
+        $('#error').html("<div class='alert alert-danger' id='errorCity'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>City field cannot be empty</div>");
     }
 }
 
