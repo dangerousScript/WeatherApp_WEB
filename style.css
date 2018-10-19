@@ -86,3 +86,11 @@ input[type='text'] {
     margin-top: 230px;
     bottom: 0;
 }
+
+#showWeather {
+    width: 60%;
+    margin: auto;
+    background-color: #4aa1f3;
+    color: white;
+    border-radius: 25px;
+}
