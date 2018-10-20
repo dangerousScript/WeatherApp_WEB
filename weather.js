@@ -28,7 +28,7 @@ function getWeather() {
 function showResults(data) {
     return  "<h2 style='font-weight: bold; font-size: 30px; padding-top: 30px;' class='text-center'>Current Weather for " + data.name + ", " + data.sys.country + "</h2>" +
             "<h3 style='padding-left: 40px;'><strong>Weather:</strong> " + data.weather[0].main + "</h3>" +
-            "<h3 style='padding-left: 40px;'><strong>Weather Description:</strong> " + data.weather[0].description + "</h3>" +
+            "<h3 style='padding-left: 40px;'><strong>Weather Description:</strong> <img src='https://openweathermap.org/img/w/" + data.weather[0].icon + ".png'> " + data.weather[0].description + "</h3>" +
             "<h3 style='padding-left: 40px;'><strong>Temperature:</strong> " + data.main.temp + " &deg;C</h3>" +
             "<h3 style='padding-left: 40px;'><strong>Pressure:</strong> " + data.main.pressure + " hpa</h3>" +
             "<h3 style='padding-left: 40px;'><strong>Humidity:</strong> " + data.main.humidity + " %</h3>" +
